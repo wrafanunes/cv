@@ -57,3 +57,11 @@ h1, h2, h3 {
         border-right: 1px solid lightgray;
     }
 }
+
+@media print {
+    a {
+      pointer-events: none;
+      color: #000;
+      text-decoration: none;
+    }
+  }
